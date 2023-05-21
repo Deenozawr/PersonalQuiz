@@ -327,7 +327,17 @@
                             <constraint firstItem="R0G-LT-pBo" firstAttribute="centerY" secondItem="wGI-VW-r3H" secondAttribute="centerY" id="Ggh-0b-1Jl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Результаты" id="zPF-zN-vGF"/>
+                    <navigationItem key="navigationItem" title="Результаты" id="zPF-zN-vGF">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="x4q-QP-GIh">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="PoH-zV-v1U" id="Oli-pz-3a4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="animalTypeLabel" destination="ZpM-wp-KZH" id="ewf-Hf-bAd"/>
+                        <outlet property="descriptionLabel" destination="vKr-ig-Own" id="1WR-yT-ZXK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jj9-F9-S3Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -340,7 +350,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="htg-Iw-Qhu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="nRt-W2-EFA">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
