@@ -57,14 +57,30 @@
 			isa = PBXGroup;
 			children = (
 				843DB2EF2A1A3DD2009E1F70 /* AppDelegate.swift */,
+				843DB3042A1A3E49009E1F70 /* Storyboards */,
 				843DB2F12A1A3DD2009E1F70 /* SceneDelegate.swift */,
-				843DB2F32A1A3DD2009E1F70 /* ViewController.swift */,
-				843DB2F52A1A3DD2009E1F70 /* Main.storyboard */,
 				843DB2F82A1A3DD4009E1F70 /* Assets.xcassets */,
-				843DB2FA2A1A3DD4009E1F70 /* LaunchScreen.storyboard */,
 				843DB2FD2A1A3DD4009E1F70 /* Info.plist */,
+				843DB3032A1A3E27009E1F70 /* ViewControllers */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		843DB3032A1A3E27009E1F70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				843DB2F32A1A3DD2009E1F70 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		843DB3042A1A3E49009E1F70 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				843DB2FA2A1A3DD4009E1F70 /* LaunchScreen.storyboard */,
+				843DB2F52A1A3DD2009E1F70 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +318,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Playground.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Playground.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
